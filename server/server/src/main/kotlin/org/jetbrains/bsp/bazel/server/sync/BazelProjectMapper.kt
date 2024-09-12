@@ -825,6 +825,8 @@ class BazelProjectMapper(
 
   private val workspaceTargetKinds =
     setOf(
+      "generic_scala_binary",
+      "generic_scala_worker",
       "java_library",
       "java_binary",
       "java_test",
